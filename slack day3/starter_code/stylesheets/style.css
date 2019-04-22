@@ -1,0 +1,235 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6
+*/
+
+/* General Section */
+body{
+    font-size: 120%;
+    margin: 0;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container-top-section {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+
+/* Nav Section */
+nav {
+    border-bottom: 2px solid black;
+     align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #fff;
+    top: 0;
+    left:0;
+    right:0;
+    position: fixed;
+   
+}
+nav img {
+    height: 60%;
+    width: 90px;
+    padding-right: 25%;
+    }
+nav ul li {
+    display: none;
+}
+ header {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     margin:80px 2px 0;
+ }
+   img {
+    width: 100%;
+    align-content: flex-start;
+    padding: 25px 0;
+   }
+ .buttons-mid {
+    border: 2px solid black;
+    background-color:#192592;
+    color: white;
+    font-weight: 600;
+    padding: 20px 110px 20px;
+    border-radius: 5px;
+ }
+ .ap {
+     text-align: center;
+ }
+.top-section {
+    background-color: #F4F3F4;
+    padding: 5% 15%;
+
+}
+.mid-section {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+}
+.buttons-mid {
+    border: 2px solid black;
+    background-color:#192592;
+    color: white;
+    font-weight: 600;
+    padding: 20px 110px 20px;
+    border-radius: 5px;
+}
+
+.text-logos {
+    margin-bottom: 5px;
+}
+.button-logo {
+    border: 2px solid black;
+    background-color: white;
+    color: #192592;
+    font-weight: 600;
+    padding: 20px 110px 20px;
+    border-radius: 5px;
+}
+.slack-img {
+    width: 30%;
+}
+ 
+
+ .container li {
+     list-style: none;
+ }
+ .flex-co {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left:0;
+ }
+
+.bottom-ul {
+    display: flex;
+    justify-content: space-around;
+}
+.extra-ul {
+    padding-left: 60px;
+}
+
+.flag-footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 27px;
+}
+.flag {
+    width: 25px;
+    padding-left: 122px;
+}
+
+.fa-twitter {
+    padding-left: 157px;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    nav img {
+        height: 80%;
+    width: 101px;
+    padding-right: 25%;
+    }
+    .fa-bars {
+        font-size: 40px;
+    }
+    .flex-container {
+        width: 90%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    body {
+        font-size: 145%;
+    }
+    .fa-bars {
+        font-size: 39px;
+    }
+    nav img {
+        height: 76%;
+        width: 100px;
+    }
+    main div button {
+        width: 100%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+    /* @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  } */
